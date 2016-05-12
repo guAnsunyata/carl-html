@@ -6,7 +6,7 @@ gulp.task('watch', function () {
 });
 
 gulp.task('styles', function () {
-    gulp.src('./public/scss/*.scss')    // 指定要處理的 Scss 檔案目錄
+    gulp.src('./public/scss/main.scss')    // 指定要處理的 Scss 檔案目錄
         .pipe(gulpSass({          // 編譯 Scss
             outputStyle: 'compressed'
         }))         
