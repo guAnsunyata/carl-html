@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Carl</title>
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <link href="./css/main.css" rel="stylesheet">
+    <script src="./js/jquery-1.11.3.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+</head>
+<body>
+    <!-- navbar -->
+    <div class="navbar navbar-fixed-top nav-deco" role="banner"> 
+        <div id="nav-container" class="container"> 
+            <div class="navbar-header"> 
+                <span id="logo"><img src="./images/Logo2.png" /></span>
+            </div>
+            <div class="collapse navbar-collapse"> 
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="scroll"><a href="">搜尋商品</a></li> 
+                    <li class="scroll"><a href="">關於我們</a></li> 
+                    <li class="scroll"><a href="./cart.html" class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></a></li>
+                </ul> 
+            </div> 
+        </div>
+    </div>
+    <div style="min-height: 60px;"></div>
+
+    <!-- highlight -->
+    <div id="banner-bg-cart-img">
+      <div class="banner-cart">
+          <div id="banner-cart-title">購物車清單</div>
+          <div id="banner-cart-des">shopping cart list</div>
+        </div>
+    </div>
+    <div id="banner-deco"></div>
+
+    <hr style="margin-bottom: 10px; margin-top: 0px;" />
+
+    <!-- body -->
+    <div id="shopping-nav-wrapper">
+      <div class="shopping-nav selected">步驟一：確定購物清單</div>
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <div class="shopping-nav">步驟二：填寫資料</div>
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <div class="shopping-nav">步驟三：確定訂單</div>
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <div class="shopping-nav">步驟四：完成</div>
+    </div>
+
+    <div id="item-list-wrapper">
+      <div id="item-list">
+        <div id="item-list-title">訂單明細</div>
+        <div id="item-list-dashboard">目前清單一共有 <span>3</span> 件商品</div>
+        <div id="item-list-logo"><img src="./images/Logo2.png" /></div>
+
+        <table id="item-list-table" class="table table-hover">
+          <thead>
+            <tr>
+              <td colspan="2">商品名稱</td>
+              <td>單價</td>
+              <td>數量</td>
+              <td>小計</td>
+              <td>刪除</td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="product-img">
+                <img src="./images/item2.jpg" />
+              </td>
+              <td class="product-des">
+                <span class="title">純棉泡泡袖T恤-女（ 礦藍 ）</span><br/>
+                <span class="id">商品編號：1960285504</span><br/>
+                <span class="size">尺寸：S</span><br/>
+                <!-- <span class="ps">提醒事項(附註)</span> -->
+                <!-- <span class="ps">搭配活動</span> -->
+              </td>
+              <td>$500</td>
+              <td>
+                <span class="count-btn count-minus-btn">－</span>
+                <span class="count-status count">1</span>
+                <span class="count-btn count-plus-btn">＋</span>
+              </td>
+              <td>$500</td>
+              <td>刪除</td>
+            </tr>
+            <tr class="product-wrapper">
+              <td class="product-img">商品照片</td>
+              <td class="product-des">
+                <span class="title">純棉泡泡袖T恤-女（ 礦藍 ）</span><br/>
+                <span class="id">商品編號：1960285504</span><br/>
+                <span class="size">尺寸：S</span><br/>
+                <!-- <span class="ps">提醒事項(附註)</span> -->
+                <!-- <span class="ps">搭配活動</span> -->
+              </td>
+              <td>$500</td>
+              <td>數量</td>
+              <td>$500</td>
+              <td>刪除</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  
+    <!-- footer -->
+    <div id="footer">
+        
+    </div>
+
+</body>
+</html>

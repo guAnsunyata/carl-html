@@ -5,6 +5,11 @@
   width: 88%;
 }
 
+.nav-deco{
+  border-bottom: $color-main 3px solid;
+
+}
+
 #logo img{
   height: 40px;
   margin: 8px 3px 8px 3px;
@@ -12,9 +17,9 @@
 
 #banner-bg-img{
   height: 250px;
-  background-image: url("../images/banner_white.jpg");
-  background-position: 25% 40%; 
+  background-image: url("../images/banner.png");
   background-size: cover;
+  background-position: center;
 }
 
 #banner-deco{
@@ -28,7 +33,6 @@
 
 .navbar a{
   color: $color-main;
-  font-weight: 600;
 }
 .nav > li{
   padding-top: 5px;
@@ -50,11 +54,10 @@
 }
 
 .catalog-bg{
-  background-image: url("../images/catalog.png");
+  // background-image: url("../images/catalog.png");
 }
 
 .catalog-btn{
-  font-weight: 500;
   margin: 7px;
   border-color: $color-main;
   color: $color-main;

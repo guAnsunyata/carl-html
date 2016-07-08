@@ -1,16 +1,17 @@
-$color-main: #4D2407;
-$color-main-complementary: #CA9F79;
+$color-main: #173D58;
+$color-main-complementary: #80D8FF;
 $color-main-bg: #ffffff;
 $color-main-bg-complementary: #F0F0F0;
 $color-structure: #EFEFEF;
 
+@import url(http://fonts.googleapis.com/earlyaccess/notosanstc.css);
+
 // global styling setting
 
 body{
-  font-family: "微軟正黑體";
+  font-family: 'Noto Sans TC', sans-serif;
   background-color: white;
   background-repeat: no-repeat;
-  background-image: url("../images/footer.png");
   background-position: bottom;
 }
 
@@ -29,7 +30,10 @@ button.btn-main{
 button.btn-main:hover{
   color: white;
   background-color: $color-main-complementary;
-  padding: 10px 20px;
+}
+button.btn-main:focus{
+  color: white;
+  background-color: $color-main-complementary;
 }
 
 @import 'index';
@@ -37,3 +41,5 @@ button.btn-main:hover{
 @import 'product';
 
 @import 'detail';
+
+@import 'cart';
