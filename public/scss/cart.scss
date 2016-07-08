@@ -50,7 +50,7 @@
 
   #item-list{
     width: 100%;
-    margin: 2% 12%;
+    margin: 2% 10%;
     border-radius: 10px;
     box-shadow: 0px 1px 3px 3px rgba(193, 193, 185, 0.5);
     padding: 2% 4%;
@@ -87,6 +87,10 @@
       height: 120px; 
     }
 
+    .id{
+      color: $color-complementary
+    }
+
     .product-img img{
       width: 90px;
     }
@@ -106,6 +110,15 @@
       padding: 2px 7px;
     }
 
+  }
+
+  #submit-wrapper{
+    text-align: center;
+    #submit-des{
+      margin-top: 10px;
+      color: $color-complementary;
+      font-size: 12px;
+    }
   }
 
 }
