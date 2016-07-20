@@ -11,7 +11,7 @@ $color-structure: #EFEFEF;
 
 body{
   font-family: 'Noto Sans TC', sans-serif;
-  background-color: white;
+  background-color: #fafafa;
   background-repeat: no-repeat;
   background-position: bottom;
 }
@@ -37,6 +37,30 @@ button.btn-main:focus{
   background-color: $color-main-complementary;
 }
 
+#banner-bg-text{
+  height: 190px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  #wrapper{
+    
+  }
+
+  #title{
+    font-size: 48px;
+    color: $color-main;
+  }
+
+  #des{
+    margin-top: -5px;
+    font-size: 14px;
+    color: $color-main;
+    text-align: center;
+  }
+}
+
 @import 'index';
 
 @import 'product';
@@ -44,3 +68,6 @@ button.btn-main:focus{
 @import 'detail';
 
 @import 'cart';
+
+@import 'about';
+
